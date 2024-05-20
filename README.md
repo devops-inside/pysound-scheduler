@@ -5,7 +5,7 @@ multiple crontab jobs in specific days of week. This is a first prototype.
 
 I made this tool for run on a Raspberry Pi using a touchscreen to control it.
 
-Actually it don't cares about any other use of crontab for the run user, for simplicity it will empty all task and rewrite crontab with tasks from db only.
+Actually it don't cares about any other use of crontab for the run user, for simplicity it will empty all tasks and rewrite crontab with tasks from db only.
 
 ## Dependencies
 
@@ -49,7 +49,8 @@ python3 pysound_scheduler.py
 
 ![crontab](images/main.png "Main Windows")
 
-Here we have current date and time, the 
+Here we have current date and time, buttons to access manual player and the scheduling window.
+There is also buttons to restart or poweroff the computer (usefull on the Raspberry with only the touchscreen connected).
 
 ### Internal player frame
 
